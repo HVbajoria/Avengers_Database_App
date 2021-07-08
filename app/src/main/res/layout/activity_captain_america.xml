@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEFFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Captain_america">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/steve_rogers"/>
+
+            <TextView
+                android:id="@+id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steve Rogers"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textColor="#082D8A"/>
+
+            <TextView
+                android:id="@+id/real"
+                android:layout_below="@id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Real Name: Chris Evans"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="#0A52AA"/>
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/real"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="About :"
+                android:textColor="#123EB1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/des1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/des"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Steven G. Rogers is a fictional character portrayed by Chris Evans in the Marvel Cinematic Universe (MCU) film franchise—based on the Marvel Comics character of the same name—commonly known by his alter ego, Captain America. In the franchise, Rogers is a World War II-era supersoldier who was given a serum that provided him with superhuman abilities including enhanced durability, strength, and athleticism. During his fight against Hydra, he became frozen in the Arctic for nearly seventy years until being revived in the 21st century. Rogers becomes a key member and leader of the Avengers. Upon his eventual retirement, Rogers chooses Sam Wilson to be his successor and passes his shield and the title of Captain America onto him."
+                android:textStyle="normal"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="114dp"
+                android:layout_below="@id/des1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/avengers" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

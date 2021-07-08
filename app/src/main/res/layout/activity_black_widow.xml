@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEFFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Black_Widow">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/natasha"/>
+
+            <TextView
+                android:id="@+id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Natasha Romanoff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textColor="#051849"/>
+
+            <TextView
+                android:id="@+id/real"
+                android:layout_below="@id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Real Name: Scarlett Johnson"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="#27032B"/>
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/real"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="About :"
+                android:textColor="#1F033A"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/des1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/des"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Natalia Alianovna Romanoff, more commonly known as Natasha Romanoff, is a fictional character portrayed by Scarlett Johansson in the Marvel Cinematic Universe (MCU) film franchise—based on the Marvel Comics character of the same name—sometimes known by her alter ego, Black Widow. Romanoff is a spy and an expert hand-to-hand combatant, trained in the Red Room from childhood. She eventually joins the counter-terrorism agency S.H.I.E.L.D. and becomes a key member and eventual leader of the Avengers."
+                android:textStyle="normal"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="114dp"
+                android:layout_below="@id/des1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/avengers" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

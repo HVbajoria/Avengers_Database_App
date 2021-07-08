@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEFFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Doctor_Strange">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/stephen_strange"/>
+
+            <TextView
+                android:id="@+id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stephen Strange"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textColor="#B67D0A"/>
+
+            <TextView
+                android:id="@+id/real"
+                android:layout_below="@id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Real Name: Benedict Cumberbatch"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="#D67117"/>
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/real"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="About :"
+                android:textColor="#BC900D"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/des1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/des"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:text="Stephen Strange, often referred to as Doctor Strange, is a fictional character in the Marvel Cinematic Universe (MCU) film franchise, based on the Marvel Comics character of the same name. He first appeared as the main character in the eponymous film released in 2016, as a brilliant but arrogant surgeon, who, after a career-ending car crash, discovers magic and becomes a Master of the Mystic Arts, using his newfound powers to protect the Earth from magical and extraterrestrial threats. The character also has a minor role in Thor: Ragnarok (2017), and has a main role in Avengers: Infinity War (2018) which is followed by an appearance in Avengers: Endgame (2019). Strange is expected to return in a supporting role in Spider-Man: No Way Home (2021), and the main role in Doctor Strange in the Multiverse of Madness (2022)."
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="114dp"
+                android:layout_below="@id/des1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/avengers" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

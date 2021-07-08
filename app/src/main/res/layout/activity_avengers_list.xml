@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        tools:context=".Avengers_list">
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:backgroundTint="#cf3f1f"
+            android:padding="0.4dp"
+            android:text="LOG OUT"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iron_manimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/iron_man"
+                android:contentDescription="@string/iron_man_section" />
+
+            <TextView
+                android:id="@+id/iron_manhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toEndOf="@id/iron_manimg"
+                android:text="@string/iron_man"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/iron_mansub"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/robert_downey_jr"
+                android:textSize="18sp"
+                android:layout_below="@id/iron_manhead"
+                android:layout_toEndOf="@id/iron_manimg"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:id="@+id/iron_mandes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iron_mansub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/iron_manimg"
+                android:text="@string/i_love_you_3000"
+                android:textColor="#980E35"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/iron_manbutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/iron_manimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#620BDD"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/captain_americaimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/captain_america"
+                android:contentDescription="@string/captain_america_section" />
+
+            <TextView
+                android:id="@+id/captain_americahead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toEndOf="@id/captain_americaimg"
+                android:text="@string/captain_america"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/captain_americasub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/captain_americahead"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/captain_americaimg"
+                android:text="@string/chris_evans"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/captain_americades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/captain_americasub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/captain_americaimg"
+                android:text="@string/i_can_do_this_all_day"
+                android:textColor="#0E16B3"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/captain_americabutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/captain_americaimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#620BDD"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/thorimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/thor"
+                android:contentDescription="@string/thor_odinson_section" />
+
+            <TextView
+                android:id="@+id/thorhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toEndOf="@id/thorimg"
+                android:text="@string/thor_odinson"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/thorsub"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/chris_hemsworth"
+                android:textSize="18sp"
+                android:layout_below="@id/thorhead"
+                android:layout_toEndOf="@id/thorimg"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:id="@+id/thohrdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thorsub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/thorimg"
+                android:text="I Knew It !!"
+                android:textColor="#0C40E1"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/thorbutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/thorimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/spider_manimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/spider_man"
+                android:contentDescription="@string/spider_man_section" />
+
+            <TextView
+                android:id="@+id/spider_manhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toEndOf="@id/spider_manimg"
+                android:text="@string/spider_man"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/spider_mansub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spider_manhead"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/spider_manimg"
+                android:text="Tom Holland"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/spider_mandes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spider_mansub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/spider_manimg"
+                android:text="Come On ! Spider Man"
+                android:textColor="#DC5111"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/spider_manbuttton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/spider_manimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/black_widowimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/black_widow"
+                android:contentDescription="@string/black_widow_section" />
+
+            <TextView
+                android:id="@+id/black_widowhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toEndOf="@id/black_widowimg"
+                android:text="@string/black_widow"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/black_widowsub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/black_widowhead"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/black_widowimg"
+                android:text="Scarlett Johansson"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/black_widowdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/black_widowsub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/black_widowimg"
+                android:text="We Have What We Have When We Have It"
+                android:textColor="#980C54"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/black_widowbutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/black_widowimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/doctor_strangeimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/doctor_strange"
+                android:contentDescription="Doctor Strange Section" />
+
+            <TextView
+                android:id="@+id/doctor_strangehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toRightOf="@id/doctor_strangeimg"
+                android:text="Doctor Strange"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doctor_strangesub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctor_strangehead"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/doctor_strangeimg"
+                android:text="Benedict Cumberbatch"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/doctor_strangedes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctor_strangesub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/doctor_strangeimg"
+                android:text="Dormammu, I've Come To Bargain"
+                android:textColor="#E31414"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/doctor_strangebutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/doctor_strangeimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/black_pantherimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/black_panther"
+                android:contentDescription="Black Panther" />
+
+            <TextView
+                android:id="@+id/black_pantherhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toRightOf="@id/black_pantherimg"
+                android:text="Black Panther"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/black_panthersub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/black_pantherhead"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/black_pantherimg"
+                android:text="Chadwick Boseman"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/black_pantherdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/black_panthersub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/black_pantherimg"
+                android:text="Wakanda Forever!"
+                android:textColor="#0A831E"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/black_pantherbutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/black_pantherimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/scarlet_witchimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/scarlet_witch"
+                android:contentDescription="Scarlet Witch Section" />
+
+            <TextView
+                android:id="@+id/scarlet_witchhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toRightOf="@id/scarlet_witchimg"
+                android:text="Scarlet Witch"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scarlet_witchsub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scarlet_witchhead"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/scarlet_witchimg"
+                android:text="Elizabeth Olsen"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/scarlet_witchdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scarlet_witchsub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/scarlet_witchimg"
+                android:text="Your Ego Binds You"
+                android:textColor="#BD075C"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/scarlet_witchbutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/scarlet_witchimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hulkimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:contentDescription="Hulk Section"
+                android:src="@drawable/hulk" />
+
+            <TextView
+                android:id="@+id/hulkhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toRightOf="@id/hulkimg"
+                android:text="The Hulk"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hulksub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hulkhead"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/hulkimg"
+                android:text="Mark Ruffalo"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/hulkdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hulksub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/hulkimg"
+                android:text="Hulk Smash"
+                android:textColor="#21870B"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/hulkbutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/hulkimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/visionimg"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/vision"
+                android:contentDescription="Vision Section" />
+
+            <TextView
+                android:id="@+id/visionhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toRightOf="@id/visionimg"
+                android:text="Vision"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/visionsub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/visionhead"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/visionimg"
+                android:text="Paul Bettany"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/visiondes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/visionsub"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/visionimg"
+                android:text="You Can't Hurt Me"
+                android:textColor="#C18A1C"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/visionbutton"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@id/visionimg"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#cf3f1f"
+                android:padding="0.4dp"
+                android:text="@string/click_here"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/logout2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:backgroundTint="#cf3f1f"
+            android:padding="0.4dp"
+            android:text="LOG OUT"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>

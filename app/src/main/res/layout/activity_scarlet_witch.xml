@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEFFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Scarlet_witch">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/wanda_maximoff"/>
+
+            <TextView
+                android:id="@+id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wanda Maximoff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textColor="#3E0A87"/>
+
+            <TextView
+                android:id="@+id/real"
+                android:layout_below="@id/character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Real Name: Elizabeth Olsen"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="#8C0851"/>
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/real"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="About :"
+                android:textColor="#C61226"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/des1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/des"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:text="Wanda Maximoff, also known as the Scarlet Witch, is a character portrayed by Elizabeth Olsen in the Marvel Cinematic Universe (MCU) media franchise who is based on the Marvel Comics character of the same name. In the franchise, Wanda is depicted as a Sokovian refugee who, along with her twin brother Pietro, volunteers to be experimented on by Hydra. The Mind Stone amplifies her natural telekinetic and energy manipulation abilities known as Chaos Magic. Wanda initially comes into conflict with the Avengers but later joins them and becomes one of the most powerful members."
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="114dp"
+                android:layout_below="@id/des1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/avengers" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

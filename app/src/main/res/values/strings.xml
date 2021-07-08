@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Application Lifecycle</string>
+    <string name="iron_man">Iron Man</string>
+    <string name="i_love_you_3000">I love you 3000!!</string>
+    <string name="iron_man_section">Iron Man Section</string>
+    <string name="thor_odinson">Thor Odinson</string>
+    <string name="chris_hemsworth">Chris Hemsworth</string>
+    <string name="click_here">CLICK HERE</string>
+    <string name="robert_downey_jr">Robert Downey Jr.</string>
+    <string name="captain_america_section">Captain America Section</string>
+    <string name="captain_america">Captain America</string>
+    <string name="chris_evans">Chris Evans</string>
+    <string name="i_can_do_this_all_day">I Can Do This All Day</string>
+    <string name="spider_man_section">Spider Man Section</string>
+    <string name="thor_odinson_section">Thor Odinson Section</string>
+    <string name="spider_man">Spider Man</string>
+    <string name="black_widow_section">Black Widow Section</string>
+    <string name="black_widow">Black Widow</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+    <string name="enter_your_registered_mobile_number_here">Enter Your Registered Mobile Number Here</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="t_challa_is_a_fictional_character_portrayed_by_chadwick_boseman_in_the_marvel_cinematic_universe_mcu_film_franchise_based_on_the_marvel_comics_character_of_the_same_name_and_known_commonly_by_his_alter_ego_black_panther_in_the_films_he_is_depicted_as_king_of_the_fictional_nation_of_wakanda_boseman_s_performance_as_black_panther_is_notable_as_one_of_the_first_black_superheroes_in_a_big_budget_film_and_has_received_acclaim">T\'Challa is a fictional character portrayed by Chadwick Boseman in the Marvel Cinematic Universe (MCU) film franchise, based on the Marvel Comics character of the same name and known commonly by his alter ego, Black Panther. In the films, he is depicted as king of the fictional nation of Wakanda. Boseman\'s performance as Black Panther is notable as one of the first black superheroes in a big-budget film and has received acclaim.</string>
+</resources>
